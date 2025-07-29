@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Orbitron&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-sans overflow-x-hidden">
+  <header class="">
+    <div class="flex shadow-md h-24">
+      <a href="../html/home.html"><img src="../image/foto/PARSHOP.png" alt="" class="w-20 h-5 mt-10 ml-10"></a>
+      <button
+        class="z-10 w-50 h-13 mt-6 ml-10 font-bold rounded-xl bg-[var(--text-new1)] text-black rounded-xl transition duration-500 ease-in-out transform hover:bg-[var(--text-new1)] hover:text-black hover:scale-105 hover:shadow-lg">DOWNLOAD
+        PARSHOP</button>
+      <input type="text" placeholder="Cari di PARSHOP" class="ml-10 mt-7 border-1 w-150 h-10 rounded-xl px-2">
+      <a href="../html/keranjang.html"><img src="../image/foto/shopping-cart.png" alt="" class="h-5 mt-8 ml-10 w-5"></a>
+         <img src="../image/foto/notification.png" alt="" class="h-5 mt-8 ml-10 w-5">
+         <a href="../html/riwayat.html"><img src="../image/foto/restore (1).png" alt="" class="h-5 mt-8 ml-10 w-5"></a>
+      <p class="mt-7 ml-16 text-xl font-medium">Vynns</p>
+      <img src="../image/foto/image (6).png" alt="" class="w-10 ml-8 h-11 py-1 mt-5">
+      
+    </div>
+
+    <div class="flex">
+  </header>
+
+  <div class="w-full mt-10 shadow-md">
+    <div class="w-full max-w-7xl mx-auto h-105">
+      <div id="detailApi" class="flex flex-row justify- items-center py-12 gap-12">
+
+        <img src="../image/foto/image (5).png" alt="" class="produk-img w-80 h-80 p-6 rounded-md">
+        <div class="flex-col items-center space-y-4 justify-center">
+          <h1 class="produk-title font-bold text-2xl">Kopi ojans.</h1>
+          <p class="sold text-gray-600">Terjual 220+</p>
+          <h1 class="price font-bold text-3xl mt-8 text-xl">RP 35.000</h1>
+          <h1 class="font-bold text-l mt-8 text-[var(--text-new2)]">Detail</h1>
+          <p class="desc text-sm">Lorem ojan, consectetur adipiscing elit. <br> Sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. <br> Ut enim ad minim veniam, <br> quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="totalJum flex-row justify-start mt-1 ">
+
+            <div class="totalJum flex flex-row justify-start mt-1 ">
+              <p class="border border-2 w-12 px-4">+</p>
+              <p class="border border-2 w-12 px-4">1</p>
+              <p class="border border-2 w-12 px-4">- </p>
+            </div>
+
+            <div class="mt-5 flex">
+              <button id="beliBtn" data-id="1" class="border-1 w-30 h-10 rounded-md bg-[var(--text-new2)]">
+                Keranjang
+              </button>
+
+
+
+              <div class="flex">
+
+
+                <button id="checkoutBtn" class="ml-16 border-1 w-30 h-10 rounded-md bg-[var(--text-new2)]">
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full max-w-7xl mx-auto">
+        <!-- Header -->
+        <h1 class="font-bold text-2xl ml-8 mt-2">Untuk Kamu</h1>
+
+        <!-- Produk -->
+        <div id="kamuApi" class="flex flex-wrap gap-4 py-10 "></div>
+      </div>
+
+
+
+      <script src="../javascript/detail.js"></script>
+
+</body>
+
+</html>

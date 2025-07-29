@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Orbitron&display=swap" rel="stylesheet"/>
+</head>
+<body class="font-sans">
+  <!-- Header -->
+  <header class="px-4 py-6">
+    <div class="flex flex-wrap items-center gap-4 justify-between">
+      <img src="../image/foto/PARSHOP.png" alt="Logo" class="w-32 h-auto">
+      <input type="text" placeholder="Cari di PARSHOP" class="flex-1 min-w-[200px] border w-full max-w-md h-10 rounded-xl px-4">
+      <a href="../download/parshop.apk" download class="px-4 py-2 bg-[var(--text-new1)] font-bold rounded-xl hover:scale-105 transition">DOWNLOAD PARSHOP</a>
+      <div class="flex gap-3">
+        <a href="login.html" class="px-4 py-2 border-2 border-black text-black rounded-xl hover:bg-black hover:text-white">Login</a>
+        <a href="registerr.html" class="px-4 py-2 border-2 border-black bg-[var(--secondary-color)] text-white rounded-xl hover:bg-transparent hover:text-black">Register</a>
+      </div>
+    </div>
+
+    <!-- Kategori -->
+    <div class="flex flex-col lg:flex-row gap-6 mt-10">
+      <div class="flex-shrink-0">
+      </div>
+      <div class="flex-1">
+        <p class="text-xl font-bold mb-4">Kategori</p>
+        <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Kesehatan</p>
+          </div>
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Kesehatan</p>
+          </div>
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Kesehatan</p>
+          </div>
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Kesehatan</p>
+          </div>
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Aksesoris</p>
+          </div>
+          <div class="text-center">
+            <div class="border p-3 rounded-xl">
+              <img src="../image/foto/image (2).png" alt="" class="ml-10">
+            </div>
+            <p>Kesehatan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Flash Sale -->
+  <section class="px-4 py-10">
+    <div class="max-w-6xl mx-auto bg-[var(--text-new2)] p-6 rounded-xl">
+      <h2 class="text-center text-2xl font-medium mb-6">Flash Sale</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="text-center">
+          <img src="../image/foto/Group 93.png" class="mx-auto">
+          <p class="mt-2 font-medium">Rp19.000</p>
+          <img src="../image/foto/Group 93 (1).png" class="w-60 h-10 mt-2 ml-2">
+        </div>
+        <div class="text-center">
+          <img src="../image/foto/Group 93.png" class="mx-auto">
+          <p class="mt-2 font-medium">Rp19.000</p>
+          <img src="../image/foto/Group 93 (1).png" class="w-60 h-10 mt-2 ml-2">
+        </div>
+        <div class="text-center">
+          <img src="../image/foto/Group 93.png" class="mx-auto">
+          <p class="mt-2 font-medium">Rp19.000</p>
+          <img src="../image/foto/Group 93 (1).png" class="w-60 h-10 mt-2 ml-2">
+        </div>
+        <div class="text-center">
+          <img src="../image/foto/Group 93.png" class="mx-auto">
+          <p class="mt-2 font-medium">Rp19.000</p>
+          <img src="../image/foto/Group 93 (1).png" class="w-60 h-10 mt-2 ml-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Par Mall -->
+  <section class="px-4">
+    <h2 class="text-2xl font-bold mb-4">Par Mall</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+      <img src="../image/foto/Group 5.png" class="hover:scale-105 transition">
+      <img src="../image/foto/Group 5.png" class="hover:scale-105 transition">
+      <img src="../image/foto/Group 5.png" class="hover:scale-105 transition">
+    </div>
+  </section>
+
+  <!-- Paling Populer -->
+  <section class="px-4 mt-10">
+    <h2 class="text-2xl font-bold mb-4">Paling Populer</h2>
+    <div id="landingApi"
+     class="grid [grid-template-columns:repeat(auto-fit,_minmax(180px,_1fr))] gap-6 px-4 py-10 place-items-center">
+</div>
+
+
+    <div class="text-center mt-6">
+      <button class="px-6 py-2 bg-[var(--text-new2)] hover:scale-105 rounded-xl text-lg">Lihat Lainnya</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--text-new2)] text-white mt-12 py-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-sm px-4 text-black">
+      <div>
+        <h3 class="font-bold text-xl mb-2">PARSHOP</h3>
+        <ul class="space-y-1">
+          <li><a href="#">Tentang PARSHOP</a></li>
+          <li><a href="#">Hak Kekayaan Intelektual</a></li>
+          <li><a href="#">Karir</a></li>
+          <li><a href="#">Flash Sale</a></li>
+          <li><a href="#">PARSHOP Farma</a></li>
+          <li><a href="#">Program Afiliasi PARSHOP</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-xl mb-2">Bantuan dan Panduan</h3>
+        <ul class="space-y-1">
+          <li><a href="#">PARSHOP Care</a></li>
+          <li><a href="#">Syarat Dan Ketentuan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-xl mb-2">Jual</h3>
+        <ul class="space-y-1">
+          <li><a href="#">PARSHOP Care</a></li>
+          <li><a href="#">Syarat Dan Ketentuan</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-xl mb-2">Kerja Sama</h3>
+        <img src="../image/foto/image 11.png" class="my-2">
+        <img src="../image/foto/image 12.png" class="my-2">
+        <img src="../image/foto/image 13.png" class="my-2">
+        <img src="../image/foto/image 10.png" class="my-2">
+      </div>
+    </div>
+  </footer>
+
+  <script src="../javascript/landing.js"></script>
+</body>
+</html>
